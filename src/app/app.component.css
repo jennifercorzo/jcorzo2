@@ -1,0 +1,249 @@
+.tab {
+  overflow: hidden;
+  background-color: white;
+  display:flex; 
+  justify-content: center; 
+  height: 68px; 
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  font-weight: bold; 
+}
+
+.tab button:hover {
+  color: #2b6777;
+}
+
+.tab button.active {
+  color: #2b6777; 
+}
+
+.tabcontent {
+  display: none;
+  border-top: none;
+}
+
+.header{
+  font-family: Arial; 
+  font-size: 28px; 
+  font-weight: bold; 
+}
+
+.heading{
+  text-align: left; 
+  background-color:#2b6777; 
+  color: #c8d8e4; 
+  height: 65vh; 
+  min-height: 505px; 
+  width: 100%; 
+  border-radius: 8px; 
+  padding-top:10%; 
+}
+
+.heading-text{
+  font-size: 40px; 
+  font-weight: bold; 
+  font-family: Arial; 
+  padding-left:10%; 
+}
+
+.homePage{
+  display:flex; 
+  flex-direction: row; 
+}
+
+.homeData{
+  width: 100%; 
+  background-color: #c8d8e4; 
+  border-radius: 8px; 
+  min-height: 505px; 
+}
+
+.homeTab{
+    display:block; 
+}
+
+.aboutMe{
+  color: #2b6777; 
+  padding-left: 4%;
+}
+
+.aboutMeText{
+  font-size: 18px; 
+  font-family: arial; 
+  line-height:22px;
+  padding-left: 6%; 
+  padding-right:2%; 
+  color:#2b6777;
+}
+
+.programmingLangs{
+  font-size: 18px; 
+  font-weight: bold; 
+  font-family: Arial; 
+  color: #2b6777; 
+  padding-left: 4%; 
+  padding-top: 3%; 
+}
+
+.programmingLangsText{
+  font-size: 15px; 
+  font-family: arial; 
+  line-height:22px;
+  padding-left: 6%; 
+  padding-right:2%; 
+  color:#2b6777;
+}
+
+.flexRow{
+    display:flex; 
+    flex-direction: row; 
+    justify-content: space-evenly;
+}
+
+.scale{
+  transform: scale(2.5);
+  padding: 25px 0px 30px 15px; 
+  margin-right:38px; 
+}
+
+.square{
+  height: 200px; 
+  width: 225px; 
+  background-color: gray; 
+  margin-left: 42%; 
+  margin-top: 35px; 
+  margin-bottom:35px; 
+  background-image: url("../images/Jennifer_photo.jpg");
+  background-position: center;
+  border-radius: 8px; 
+}
+
+.edu{
+  background-color: #c8d8e4; 
+  color: #2b6777; 
+  font-family: arial; 
+  /* height: 700px;  */
+  border-radius: 8px; 
+  padding-top: 3%; 
+  padding-left: 5%; 
+  padding-bottom:3%;
+}
+
+.umd{
+  background-color: #2b6777; 
+  color: #c8d8e4; 
+  border-radius: 8px; 
+  padding-left: 3%; 
+  padding-top: 2%; 
+  padding-bottom: 2%; 
+  margin-right: 3%; 
+}
+
+.eduHeading{
+  padding-bottom: 10px; 
+}
+
+.eduSpacing{
+  padding-bottom: 10px; 
+  padding-left: 18px; 
+  margin-right:44px; 
+}
+
+.eduSubHeading{
+  font-size: 22px;
+  font-weight: bold;
+  padding-bottom:7px;
+}
+
+.eduData{
+  font-size: 16px; 
+}
+
+.involvement{
+  border: solid 1px #2b6777; 
+  border-radius: 8px; 
+  padding-left: 3%; 
+  padding-top: 2%; 
+  padding-bottom: 2%; 
+  margin-right: 3%; 
+  margin-top: 2%; 
+}
+
+.contact{
+  background-color: #c8d8e4; 
+  border-radius: 8px; 
+  padding-left: 2%; 
+  padding-top: 1%; 
+  height: 734px; 
+}
+
+.work{
+  width: 100%; 
+  background-color: #c8d8e4; 
+  color: #2b6777; 
+  font-family: arial; 
+  border-radius: 8px; 
+  padding-top:1%; 
+  padding-left: 2%; 
+  min-height: 510px; 
+}
+
+.workHeading{
+  font-size: 28px; 
+  font-weight: bold; 
+  font-family: arial; 
+  color: #2b6777; 
+  padding-bottom: 8px; 
+}
+
+.workDates{
+  float: right;
+  padding-right: 40px;
+  font-style: italic;  
+}
+
+.internship{
+  text-align: left; 
+  background-color:#2b6777; 
+  color: #c8d8e4; 
+  font-family: arial;
+  height: 65vh; 
+  min-height: 510px; 
+  width: 100%; 
+  border-radius: 8px; 
+  padding-top:1%; 
+  padding-left: 2%; 
+  padding-right: 8px; 
+}
+
+.internshipHeader{
+  padding-bottom: 8px;
+}
+
+.companyNames{
+  text-decoration: underline; 
+}
+
+.links{
+  color: #2b6777; 
+  font-weight: bold; 
+  font-family: arial;
+}
+
+.links:hover{
+  color: #708090; 
+}
+
+li {
+  padding-bottom: 10px; 
+}
+
